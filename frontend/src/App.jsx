@@ -32,6 +32,7 @@ export default function App() {
           <Route path="/attendance" element={<Attendance />} />
           <Route path="/employees/:id" element={<EmployeeDetails />} />
         </Routes>
+        
       </main>
     </div>
   );
